@@ -1,4 +1,3 @@
-import React, {useState} from "react";
 import TicketArea from "./TicketArea";
 
 function App() {
