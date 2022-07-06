@@ -18,7 +18,7 @@ $closerSoftShadow: 0 0 15px rgba(0, 0, 0, 0.4);
   background-color: $baseBackgroundColor;
 }
 
-div {
+div, span{
   background: none;
 }
 
@@ -34,8 +34,10 @@ img {
 }
 
 .welcomePageImage {
-  height: 40vh;
+  height: auto;
   width: auto;
+
+  max-width: 30vw;
 }
 
 .title {
@@ -61,6 +63,10 @@ img {
   text-align: center;
 
   background-color: $baseButtonColor;
+  background-repeat: no-repeat;
+  $imageSize: 75%;
+  background-size: $imageSize $imageSize;
+  background-position: center center;
   color: white;
 
   font-weight: $boldFontWeight;

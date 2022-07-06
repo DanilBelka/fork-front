@@ -7,7 +7,7 @@
   background-color: #FFFFFF;
 }
 
-div {
+div, span {
   background: none;
 }
 
@@ -20,8 +20,9 @@ img {
 }
 
 .welcomePageImage {
-  height: 40vh;
+  height: auto;
   width: auto;
+  max-width: 30vw;
 }
 
 .title {
@@ -42,6 +43,9 @@ img {
   width: fit-content;
   text-align: center;
   background-color: #6A61FF;
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+  background-position: center center;
   color: white;
   font-weight: 700;
   cursor: pointer;
