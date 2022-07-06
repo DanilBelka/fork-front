@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$defaultFontFamily: 'Montserrat', sans-serif;
+$defaultFontWeight: 400;
+$boldFontWeight: 700;
+
+$baseButtonColor: #6A61FF;
+$baseBackgroundColor: #FFFFFF;
+$footerBackgroundColor: #616161;
+$softShadow: 0 0 10px rgba(0, 0, 0, 0.32);
+$closerSoftShadow: 0 0 15px rgba(0, 0, 0, 0.4);
+
+* {
+  font-family: $defaultFontFamily;
+  font-weight: $defaultFontWeight;
+  margin: 0;
+  padding: 0;
+  background-color: $baseBackgroundColor;
+}
+
+div {
+  background: none;
+}
+
+body {
+}
+
+footer {
+  background-color: $footerBackgroundColor;
+}
+
+img {
+  background: none;
+}
+
+.welcomePageImage {
+  height: 40vh;
+  width: auto;
+}
+
+.title {
+  font-weight: $boldFontWeight;
+  font-size: 18pt;
+}
+
+.soft-box {
+  $softBorder: 8px;
+
+  background-color: $baseBackgroundColor;
+  box-shadow: $softShadow;
+  border-radius: $softBorder;
+
+  margin: 15px;
+  padding: 15px;
+}
+
+.soft-button {
+  @extend .soft-box;
+  border-radius: 9999px;
+  width: fit-content;
+  text-align: center;
+
+  background-color: $baseButtonColor;
+  color: white;
+
+  font-weight: $boldFontWeight;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: $closerSoftShadow;
+  }
+}
+
+
+.welcome_page_panel {
+  background: linear-gradient(116.97deg, rgba(244, 163, 230, 0.77) 34.57%, rgba(153, 11, 243, 0.34) 96.86%);
+  width: 100vw;
+  height: 100vh;
+
+  overflow: auto;
+
+  font-weight: $boldFontWeight;
+}
+
+.upper-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background: none;
+}

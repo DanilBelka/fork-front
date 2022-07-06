@@ -1,11 +1,9 @@
-import TicketArea from "./TicketArea";
+import WelcomePage from "./WelcomePage";
 
 function App() {
 	return (
-		<div className="App">
-			<div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-around"}}>
-				<TicketArea/>
-			</div>
+		<div>
+				<WelcomePage/>
 		</div>
 	);
 }

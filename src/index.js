@@ -4,5 +4,5 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<App style={{margin: '0', padding: '0'}}/>
+	<App/>
 );
