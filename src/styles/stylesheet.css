@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
 * {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -8,8 +7,7 @@
   background-color: #FFFFFF;
 }
 
-div,
-span {
+div, span {
   background: none;
 }
 
@@ -32,8 +30,7 @@ img {
   font-size: 18pt;
 }
 
-.soft-box,
-.soft-button {
+.soft-box, .soft-button {
   background-color: #FFFFFF;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.32);
   border-radius: 8px;
@@ -53,7 +50,6 @@ img {
   font-weight: 700;
   cursor: pointer;
 }
-
 .soft-button:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
@@ -77,15 +73,14 @@ img {
   width: 100%;
   max-width: 88vw;
   padding: 0.1vh 6vw 0.5vh 6vw;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   display: flex;
   flex-direction: row;
   gap: 6vw;
-  box-shadow: 0 0px 30px 0px rgba(0, 0, 0, .5);
-
+  box-shadow: 0 0px 30px 0px rgba(0, 0, 0, 0.5);
 }
 
 .headerImage {
@@ -168,8 +163,19 @@ img {
   cursor: pointer;
 }
 
-.main__create-button:hover{
+.main__create-button:hover {
   box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.35);
+}
+
+.project-creation {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  height: 73vh;
+  width: 33vw;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 90px -23px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  padding-left: 4.1vw;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
