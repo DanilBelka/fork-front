@@ -17,18 +17,18 @@ const Header = () => {
                     <div>Scrum board</div>
                 </span>
             </span>
-            <span className={"headerText"} style={{ marginLeft: "-3vw" }}>Board</span>
-            <span className={"headerText"}>Tasks</span>
-            <span className={"headerText"}>Calendar</span>
-            <span className={"headerText"}>Team</span>
+            <span className={"header__text"} style={{ marginLeft: "-3vw" }}>Board</span>
+            <span className={"header__text"}>Tasks</span>
+            <span className={"header__text"}>Calendar</span>
+            <span className={"header__text"}>Team</span>
             <span style={{ marginLeft: "15vw", marginTop: "1.5vh" }}>
-                <img className='headerImage' src={notification}></img>
-                <img className='headerImage' src={sms}></img>
+                <img className='headerImage' src={notification} alt=""></img>
+                <img className='headerImage' src={sms} alt=""></img>
             </span>
             <span>
-                <img className='profileLogo' src={profileLogo}></img>
+                <img className='profileLogo' src={profileLogo} alt=""></img>
             </span>
-            <span className={"headerText"} style={{ fontSize: "16px", fontWeight: "700", marginLeft:"-6.2vw"}}>Asap</span>
+            <span className={"header__text"} style={{ fontSize: "16px", fontWeight: "700", marginLeft:"-6.2vw"}}>Asap</span>
 
         </div>
     );

@@ -1,22 +1,17 @@
 import React from 'react';
-import laptopImage from './images/welcomeImage.png';
-import forkLogo from './images/fork-logo.svg';
 
 import './styles/stylesheet.css';
-import SoftButton from "./SoftButton";
 import Header from "./Header"
+import Footer from "./Footer"
 
 const MainPage = () => {
 
-	const horizontalWrapperStyle = {
-		display: 'flex',
-		flexDirection: 'row',
-		justifyContent: 'center',
-	};
-
-	return (
-		<Header></Header>
-	);
+    return (
+        <div className={"MainPage"}>
+            <Header></Header>
+            <Footer></Footer>
+        </div>
+    );
 };
 
 export default MainPage;
