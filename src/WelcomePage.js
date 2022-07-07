@@ -14,7 +14,7 @@ const WelcomePage = () => {
 	};
 
 	return (
-		<div className={"welcome_page_panel"}>
+		<div className={"start_pages_background"}>
 			<div className={"upper-panel"}>
 				<span style={{display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
 					<SoftButton style={{backgroundImage: `url(${forkLogo})`, width: '3vh', height: '3vh'}} />
