@@ -13,7 +13,7 @@ const MainPage = () => {
             <div className={"main"} style={{ marginLeft: "auto", marginRight: "auto" }}>
                 <div>
                     <span className={"main__text"}>Welcome to FORK - start your own path.</span>
-                    <a href={"./create-project"}>
+                    <a href={"./project-creation"}>
                         <button className={"main__create-button"}>Create project</button>
                     </a>
                 </div>
