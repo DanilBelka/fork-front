@@ -13,9 +13,11 @@ const MainPage = () => {
             <div className={"main"} style={{ marginLeft: "auto", marginRight: "auto" }}>
                 <div>
                     <span className={"main__text"}>Welcome to FORK - start your own path.</span>
-                    <button className={"main__create-button"}>Create project</button>
+                    <a href={"./create-project"}>
+                        <button className={"main__create-button"}>Create project</button>
+                    </a>
                 </div>
-                <div style={{backgroundImage: `url(${vector})`, backgroundSize:"100% 100%"}}></div>
+                <div style={{ backgroundImage: `url(${vector})`, backgroundSize: "100% 100%" }}></div>
             </div>
             <Footer></Footer>
         </div>
