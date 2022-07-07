@@ -10,7 +10,7 @@ function App() {
 			<Routes>
 				<Route path={"/welcome"} element={<WelcomePage/>}></Route>
 				<Route path={"/index"} element={<MainPage/>}></Route>
-				<Route path={"/create-project"} element={<NewProjectPage/>}></Route>
+				<Route path={"/project-creation"} element={<NewProjectPage/>}></Route>
 				<Route path={"*"} element={<NotFound/>}/>
 			</Routes>
 		</BrowserRouter>
