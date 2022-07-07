@@ -20,7 +20,7 @@ const Header = () => {
             <span className={"header__text"} style={{ marginLeft: "-3vw" }}>Board</span>
             <span className={"header__text"}>Calendar</span>
             <span className={"header__text"}>Team</span>
-            <span style={{ marginLeft: "20vw", marginTop: "1.5vh"}}>
+            <span style={{ marginLeft: "20vw", marginTop: "1.5vh" }}>
                 <img className='headerImage' src={notification} alt=""></img>
                 <img className='headerImage' src={sms} alt=""></img>
             </span>
