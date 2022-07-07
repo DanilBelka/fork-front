@@ -18,12 +18,12 @@ $closerSoftShadow: 0 0 15px rgba(0, 0, 0, 0.4);
   background-color: $baseBackgroundColor;
 }
 
-div, span{
+div,
+span {
   background: none;
 }
 
-body {
-}
+body {}
 
 footer {
   background-color: $footerBackgroundColor;
@@ -100,15 +100,17 @@ img {
   width: 100%;
   max-width: 88vw;
   padding: 0.1vh 6vw 0.5vh 6vw;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   display: flex;
   flex-direction: row;
   gap: 6vw;
-  box-shadow: 0 0px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0px 30px 0px rgba(0, 0, 0, .5);
+
 }
+
 
 .headerImage {
   margin-top: 1.8vh;
