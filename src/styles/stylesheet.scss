@@ -279,15 +279,73 @@ img {
   padding-left: 8vw;
   padding-top: 0.5vw;
   height: 6vw;
-  margin-top:1vw;
+  margin-top: 1vw;
   background: #E7CDFF;
   border: 1px dashed #000000;
   border-radius: 19px;
   cursor: pointer;
 }
 
-.addBtn{
+.addBtn {
   width: 40px;
   height: 40px;
-  margin-left:2.9vw;
+  margin-left: 2.9vw;
+}
+
+.board {
+  margin-left: auto;
+  margin-right: auto;
+  width: 55vw;
+  margin-top: 5vh;
+  height: 70vh;
+
+  &__title {
+    background: #7FBEF9;
+    border-radius: 10px;
+    width: 12vw;
+    height: 6vh;
+    line-height: 6vh;
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  &__comment {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.32);
+    border-radius: 25px;
+    width: 10vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 5px;
+    height: auto;
+    margin-bottom:1vw;
+
+    &__title {
+      font-weight: 600;
+      font-size: 1.1vw;
+      margin-left:2.8vw
+    }
+
+    &__description {
+      margin-top:0.5vw;
+      font-weight: 300;
+      font-size: 12px;
+    }
+
+    &__info{
+      margin-top:0.7vw;
+      display: flex;
+      flex-direction: row;
+      gap:5.5vw;
+      font-size:14px;
+    }
+  }
+}
+
+.commentLogo{
+  height: 14px;
+  width: 14px;
 }

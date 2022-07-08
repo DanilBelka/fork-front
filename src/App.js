@@ -1,5 +1,6 @@
 import WelcomePage from "./WelcomePage";
 import MainPage from "./MainPage";
+import BoardPage from "./BoardPage";
 import NewProjectPage from "./NewProjectPage";
 import TaskCreation from "./NewTaskPage"
 import {BrowserRouter, Route, Routes} from "react-router-dom";
@@ -13,6 +14,7 @@ function App() {
 				<Route path={"/index"} element={<MainPage/>}></Route>
 				<Route path={"/project-creation"} element={<NewProjectPage/>}></Route>
 				<Route path={"/task-creation"} element={<TaskCreation/>}></Route>
+				<Route path={"/board"} element={<BoardPage/>}></Route>
 				<Route path={"*"} element={<NotFound/>}/>
 			</Routes>
 		</BrowserRouter>
