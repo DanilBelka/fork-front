@@ -14,7 +14,7 @@ const NewTaskPage = () => {
         <div className={"mainPage"}>
             <Header></Header>
             <div className={"project-creation"} style={{ marginLeft: "auto", marginRight: "auto", paddingTop: "1vw", height: "71vh" }}>
-                <span className={"project-creation__title"}>Create a new project</span>
+                <span className={"project-creation__title"}>Create a new task</span>
                 <img className={"project-creation__closeButton"} src={close} alt=""></img>
                 <p></p>
                 <form>
