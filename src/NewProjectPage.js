@@ -32,7 +32,7 @@ const NewProjectPage = () => {
                         <hr className={"project-creation__line"}></hr>
                     </div>
                     <div style={{ marginTop: "25px", marginBottom: "10px" }} className={"deadline"}>
-                        <label for={"date"} style={{position:"absolute", right:"5vw", top:"19.7vw", width:"1vw", color:"#6A61FF"}}>V</label>
+                        <label for={"date"} style={{position:"absolute", right:"5vw", top:"18.3vw", width:"1vw", color:"#6A61FF"}}>V</label>
                         <label className={"project-creation__label"} for={"date"}>Deadline</label>
                         <input type={"date"} className={"project-creation__date"} id={"date"} value={"2022-07-25"}></input>
                     </div>
